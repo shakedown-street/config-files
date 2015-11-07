@@ -18,3 +18,5 @@
 feh --bg-scale ~/Pictures/treecanyon.jpg &
 tint2 &
 guake &
+compton &
+

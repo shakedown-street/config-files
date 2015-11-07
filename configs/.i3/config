@@ -163,4 +163,4 @@ bar {
 
 exec_always --no-startup-id feh --bg-scale ~/Pictures/treecanyon.jpg
 exec guake
-
+exec compton
