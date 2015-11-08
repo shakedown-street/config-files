@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!-- Place in $HOME/.config/openbox/menu.xml -->
 <openbox_menu xmlns="http://openbox.org/"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://openbox.org/
@@ -32,16 +32,16 @@
   <menu id="client-list-menu" />
   <separator />
   <item label="Edit menu">
-    <action name="Execute"><execute>urxvt -e vim ~/.config/openbox/menu.xml</execute></action>
+    <action name="Execute"><execute>subl ~/.config/openbox/menu.xml</execute></action>
   </item>
   <item label="Edit rc">
-  <action name="Execute"><execute>urxvt -e vim ~/.config/openbox/rc.xml</execute></action>
+  <action name="Execute"><execute>subl ~/.config/openbox/rc.xml</execute></action>
   </item>
   <item label="Edit autostart">
-        <action name="Execute"><execute>urxvt -e vim ~/.config/openbox/autostart</execute></action>
+        <action name="Execute"><execute>subl ~/.config/openbox/autostart</execute></action>
   </item>
   <item label="Edit tint2">
-      <action name="Execute"><execute>urxvt -e vim ~/.config/tint2/tint2rc</execute></action>
+      <action name="Execute"><execute>subl ~/.config/tint2/tint2rc</execute></action>
   </item>
   <item label="ObConf">
     <action name="Execute"><execute>obconf</execute></action>

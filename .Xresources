@@ -1,3 +1,8 @@
+! All credits here to:
+! https://github.com/zack-de-la-rocha/
+!
+! Thanks Buddy
+
 URxvt.scrollBar: false
 ! make cursor blink and underline
 URxvt.cursorBlink: true

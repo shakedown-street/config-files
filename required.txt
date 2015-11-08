@@ -1,0 +1,30 @@
+i3 with dmenu
+	compton - compositioning
+	feh - background
+	urxvt - terminal
+
+	relies on:
+	.Xresources
+	compton.conf
+
+openbox
+	compton - compositioning
+	feh - background
+	urxvt - terminal
+	tint2 - task bar
+	dmenu - dynamic menu
+
+	relies on:
+	.Xresources
+	compton.conf
+	tint2rc
+
+To be able to use this as intended the following programs are needed
+
+openbox
+i3
+tint2
+dmenu
+urxvt
+feh
+compton

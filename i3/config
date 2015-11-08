@@ -18,7 +18,7 @@ set $mod Mod1
 # clear in small sizes. However, if you need a lot of unicode glyphs or
 # right-to-left text rendering, you should instead use pango for rendering and
 # chose a FreeType font, such as:
-font pango:DejaVu Sans Mono 9
+font pango:Droid Sans 9
 
 new_window pixel 2
 new_float pixel 2
@@ -104,12 +104,6 @@ bindsym $mod+Ctrl+8 workspace 8
 bindsym $mod+Ctrl+9 workspace 9
 bindsym $mod+Ctrl+0 workspace 10
 
-# program keybinds
-bindsym $mod+Ctrl+t exec subl
-bindsym $mod+Ctrl+f exec urxvt -e ranger
-bindsym $mod+Ctrl+w exec firefox
-
-
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace 1
 bindsym $mod+Shift+2 move container to workspace 2
@@ -162,5 +156,4 @@ bar {
 }
 
 exec_always --no-startup-id feh --bg-scale ~/Pictures/treecanyon.jpg
-exec guake
 exec compton
