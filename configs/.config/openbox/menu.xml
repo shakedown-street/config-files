@@ -6,27 +6,43 @@
                 file:///usr/share/openbox/menu.xsd">
 
 <menu id="root-menu" label="Openbox 3">
-  <item label="Terminal">
+  <item label="Terminal Emulator">
     <action name="Execute"><execute>urxvt</execute></action>
   </item>
-  <item label="Firefox">
+  <item label="Web Browser">
     <action name="Execute"><execute>firefox</execute></action>
   </item>
-  <separator />
-  <item label="Sublime">
-    <action name="Execute"><execute>subl</execute></action>
+  <item label="File Explorer">
+    <action name="Execute"><execute>thunar</execute></action>
   </item>
-  <item label="Vim">
-    <action name="Execute"><execute>urxvt -e vim</execute></action>
+
+  <separator />
+  <item label="Text Editor">
+    <action name="Execute"><execute>subl</execute></action>
   </item>
   <item label="Profanity">
     <action name="Execute"><execute>urxvt -e profanity</execute></action>
+  </item>
+  <item label="Music">
+    <action name="Execute"><execute>rhythmbox</execute></action>
   </item>
   <!-- This requires the presence of the 'menu' package to work -->
   <menu id="/Debian" />
   <separator />
   <menu id="client-list-menu" />
   <separator />
+  <item label="Edit menu">
+    <action name="Execute"><execute>urxvt -e vim ~/.config/openbox/menu.xml</execute></action>
+  </item>
+  <item label="Edit rc">
+  <action name="Execute"><execute>urxvt -e vim ~/.config/openbox/rc.xml</execute></action>
+  </item>
+  <item label="Edit autostart">
+        <action name="Execute"><execute>urxvt -e vim ~/.config/openbox/autostart</execute></action>
+  </item>
+  <item label="Edit tint2">
+      <action name="Execute"><execute>urxvt -e vim ~/.config/tint2/tint2rc</execute></action>
+  </item>
   <item label="ObConf">
     <action name="Execute"><execute>obconf</execute></action>
   </item>
