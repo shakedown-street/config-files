@@ -2,6 +2,6 @@
 # Place script in $HOME/.config/openbox/autostart
 #
 
-feh --bg-scale ~/Pictures/Backgrounds/hobbit_cartoon.jpg &
+feh --bg-scale ~/Pictures/Backgrounds/treecanyon.jpg &
 tint2 &
 compton &
