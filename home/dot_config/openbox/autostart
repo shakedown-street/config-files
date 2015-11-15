@@ -4,4 +4,3 @@
 
 feh --bg-scale ~/Pictures/Backgrounds/treecanyon.jpg &
 tint2 &
-compton &
