@@ -2,5 +2,5 @@
 # Place script in $HOME/.config/openbox/autostart
 #
 
-feh --bg-scale ~/Pictures/Backgrounds/treecanyon.jpg &
+feh --bg-scale ~/Pictures/Backgrounds/grateful_dead.jpg &
 tint2 &
