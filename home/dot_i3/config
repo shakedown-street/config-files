@@ -155,4 +155,5 @@ bar {
         status_command i3status
 }
 
-exec_always --no-startup-id feh --bg-scale ~/Pictures/Backgrounds/treecanyon.jpg
+exec_always --no-startup-id feh --bg-scale ~/Pictures/Backgrounds/white_tree.jpg
+exec --no-startup-id compton --shadow-exclude 'n:a:Conky' -b
