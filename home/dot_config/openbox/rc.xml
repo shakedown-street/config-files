@@ -41,7 +41,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Clearlooks</name>
+    <name>Nightmare-02</name>
     <titleLayout/>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -246,21 +246,21 @@
       </action>
     </keybind>
     <!-- Keybindings for volume -->
-	<keybind key="XF86AudioRaiseVolume">
-		<action name="Execute"> 
-			<command>amixer set Master 10%+</command>
-		</action>
-	</keybind>
-	<keybind key="XF86AudioLowerVolume">
-		<action name="Execute">
-			<command>amixer set Master 10%-</command>
-		</action>
-	</keybind>
-	<keybind key="XF86AudioMute">
-		<action name="Execute"> 
-			<command>amixer set Master toggle</command>
-		</action>
-	</keybind>
+    <keybind key="XF86AudioRaiseVolume">
+      <action name="Execute">
+        <command>amixer set Master 10%+</command>
+      </action>
+    </keybind>
+    <keybind key="XF86AudioLowerVolume">
+      <action name="Execute">
+        <command>amixer set Master 10%-</command>
+      </action>
+    </keybind>
+    <keybind key="XF86AudioMute">
+      <action name="Execute">
+        <command>amixer set Master toggle</command>
+      </action>
+    </keybind>
     <!-- Keybindings for windows -->
     <keybind key="A-Escape">
       <action name="Lower"/>
@@ -271,7 +271,7 @@
       <action name="ShowMenu">
         <menu>client-menu</menu>
       </action>
-	</keybind>
+    </keybind>
     <keybind key="A-m">
       <action name="ToggleMaximize"/>
     </keybind>
