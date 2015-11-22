@@ -1,68 +1,65 @@
-! All credits here to:
+! Credits to:
 ! https://github.com/zack-de-la-rocha/
 !
 ! Thanks Buddy
 
-URxvt.scrollBar: false
-! make cursor blink and underline
-URxvt.cursorBlink: true
-URxvt.cursorUnderline: true
+urxvt.transparent: true
+urxvt.shading: 20
+urxvt.scrollBar: false
+urxvt.cursorBlink: true
+urxvt.cursorUnderline: true
+urxvt.geometry: 96x24
+urxvt.termName: rxvt
+urxvt.allow_bold: true
+urxvt.jumpScroll: true
+urxvt.tintColor: white
+! urxvt.letterSpace: -1
 
-urxvt*transparent: true
-urxvt*shading: 15
-!URxvt.letterSpace: -1
+! urxvt color scheme:
 
+urxvt.background: #0c0d0e
+urxvt.foreground: #7f8f9f
 
-! special
-*.foreground:   #919191
-*.background:   #000000
-*.cursorColor:  #919191
+urxvt.colorUL: #86a2b0
 
-! black
-*.color0:       #303030
-*.color8:       #5e5e5e
+! black + red
+urxvt.color0: #101010
+urxvt.color1: #705050
+! green + yellow
+urxvt.color2: #60b48a
+urxvt.color3: #f0dfaf
+! blue + purple
+urxvt.color4: #506070
+urxvt.color5: #dc8cc3
+! cyan + white
+urxvt.color6: #8cd0d3
+urxvt.color7: #dcdccc
+! bright-black + bright-red
+urxvt.color8: #000000
+urxvt.color9: #dca3a3
+! bright-green + bright-yellow
+urxvt.color10: #c3bf9f
+urxvt.color11: #f0dfaf
+! bright-blue + bright-purple
+urxvt.color12: #94bff3
+urxvt.color13: #ec93d3
+! bright-cyan + bright-white
+urxvt.color14: #93e0e3
+urxvt.color15: #ffffff
 
-! red
-*.color1:       #c10023
-*.color9:       #ff8781
+! clickable links
+urxvt.perl-ext-common: default,matcher
+urxvt.url-launcher: /usr/bin/firefox
+urxvt.matcher.button: 1
 
-! green
-*.color2:       #a83334
-*.color10:      #ffa095
+! yankable links
+urxvt.perl-ext: default,url-select
+urxvt.keysym.M-u: perl:url-select:select_next
+urxvt.url-select.launcher: /usr/bin/xdg-open
+urxvt.url-select.underline: true
 
-! yellow
-*.color3:       #b51d2c
-*.color11:      #ff948b
+! font
+urxvt.font: xft:DejaVu Sans Mono:size=10
+urxvt.boldFont: xft:DejaVu Sans Mono:pixelsize=10
+urxvt.imLocale: en_US.UTF-8
 
-! blue
-*.color4:       #8c4b46
-*.color12:      #feb2aa
-
-! magenta
-*.color5:       #7d534f
-*.color13:      #ebbbb5
-
-! cyan
-*.color6:       #9a413d
-*.color14:      #ffaaa0
-
-! white
-*.color7:       #c6c6c6
-*.color15:      #ffffff
-
-
-!clickable links
-URxvt.perl-ext-common: default,matcher
-URxvt.url-launcher: /usr/bin/firefox
-!URxvt.url-launcher: /usr/bin/chromium
-URxvt.matcher.button: 1
-
-!yankable links
-URxvt.perl-ext: default,url-select
-URxvt.keysym.M-u: perl:url-select:select_next
-URxvt.url-select.launcher: /usr/bin/xdg-open
-URxvt.url-select.underline: true
-!font
-URxvt.font: xft:DejaVu Sans Mono:size=9
-URxvt.imLocale: en_US.UTF-8
-!dzen2.font:       -*-fixed-*-*-*-*-*-*-*-*-*-*-*-*
