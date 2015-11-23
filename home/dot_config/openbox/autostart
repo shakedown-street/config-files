@@ -4,4 +4,4 @@
 
 feh --bg-scale ~/Pictures/Backgrounds/white_tree.jpg &
 tint2 &
-compton --shadow-exclude 'n:a:Conky' -b &
+
