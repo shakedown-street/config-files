@@ -60,6 +60,6 @@ urxvt.url-select.underline: true
 
 ! font
 urxvt.font: xft:DejaVu Sans Mono:size=10
-urxvt.boldFont: xft:DejaVu Sans Mono:pixelsize=10
+urxvt.boldFont: xft:DejaVu Sans Mono:size=10
 urxvt.imLocale: en_US.UTF-8
 
