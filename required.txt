@@ -31,4 +31,3 @@ dmenu
 urxvt
 feh
 amixer - i think also alsamixer would be good to have
-

@@ -290,6 +290,17 @@
         <command>dmenu_run</command>
       </action>
     </keybind>
+    <keybind key="W-d">
+      <action name="Execute">
+        <name>dmenu</name>
+        <command>dmenu_run</command>
+      </action>
+    </keybind>
+    <keybind key="C-A-Delete">
+      <action name="Execute">
+        <command>gnome-system-monitor</command>
+      </action>
+    </keybind>
     <keybind key="A-t">
       <action name="Execute">
         <command>urxvt</command>
