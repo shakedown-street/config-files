@@ -3,16 +3,16 @@
 !
 ! Thanks Buddy
 
+urxvt.termName: rxvt
+urxvt.geometry: 96x24
 urxvt.transparent: true
 urxvt.shading: 20
 urxvt.scrollBar: false
 urxvt.cursorBlink: true
 urxvt.cursorUnderline: true
-urxvt.geometry: 96x24
-urxvt.termName: rxvt
-urxvt.allow_bold: true
-urxvt.jumpScroll: true
+urxvt.jumpScroll: false
 urxvt.tintColor: white
+urxvt.scrollWithBuffers: true
 ! urxvt.letterSpace: -1
 
 ! urxvt color scheme:
@@ -59,7 +59,5 @@ urxvt.url-select.launcher: /usr/bin/xdg-open
 urxvt.url-select.underline: true
 
 ! font
-urxvt.font: xft:DejaVu Sans Mono:size=10
-urxvt.boldFont: xft:DejaVu Sans Mono:pixelsize=10
+urxvt.font: xft:DejaVu Sans Mono:size=9
 urxvt.imLocale: en_US.UTF-8
-
