@@ -14,6 +14,7 @@ openbox
 		urxvt - terminal
 		tint2 - task bar
 		dmenu - dynamic menu
+		thunar - file manager
 		amixer - for volume controls
 
 	relies on:
@@ -31,3 +32,4 @@ dmenu
 urxvt
 feh
 amixer - i think also alsamixer would be good to have
+thunar - thunar is used in the openbox configuration for a file manager.
