@@ -5,7 +5,6 @@ This repo is mainly for me, so I can easily set up my own systems with i3 and op
 However, feel free to use this repo however you'd like.
 
 ### ~/
-* .vimrc
 * .Xresources
 
 ### ~/.config/openbox/
@@ -20,3 +19,6 @@ However, feel free to use this repo however you'd like.
 
 ## ~/.i3/
 * config
+
+Some openbox themes are also included and are used in the openbox configuration.
+If you choose to not use the included themes, you will need to change it in obconf.
