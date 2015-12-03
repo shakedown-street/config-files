@@ -358,7 +358,7 @@
     </keybind>
     <keybind key="A-w">
       <action name="Execute">
-        <command>x-www-browser</command>
+        <command>firefox</command>
       </action>
     </keybind>
     <keybind key="A-f">

@@ -2,5 +2,5 @@
 # Place script in $HOME/.config/openbox/autostart
 #
 
-feh --randomize --bg-scale ~/.config/openbox/backgrounds/ &
+feh --randomize --bg-scale ~/Pictures/Backgrounds/ &
 tint2 &
