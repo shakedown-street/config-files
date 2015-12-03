@@ -5,10 +5,8 @@ This repo is mainly for me, so I can easily set up my own systems with i3 and op
 However, feel free to use this repo however you'd like.
 
 ### ~/
+* .vimrc
 * .Xresources
-
-### ~/.config/
-* compton.conf
 
 ### ~/.config/openbox/
 * autostart

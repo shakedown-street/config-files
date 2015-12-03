@@ -6,7 +6,7 @@ i3 with dmenu
 
 	relies on:
 		.Xresources
-		set feh background in ~/.i3/config (near bottom of file)
+		set background with feh in ~/.i3/config (near bottom of file)
 
 openbox
 	programs needed:
@@ -19,10 +19,10 @@ openbox
 	relies on:
 		.Xresources
 		tint2rc
-		set feh backround in ~/.config/openbox/autostart
+		set backround with feh in ~/.config/openbox/autostart
 
 
-To be able to use this as intended the following programs are needed
+To be able to use this repo as intended the following programs are needed
 
 openbox
 i3
