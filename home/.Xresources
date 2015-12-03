@@ -1,7 +1,5 @@
-! Credits to:
-! https://github.com/zack-de-la-rocha/
-!
-! Thanks Buddy
+! I do not know where I found this Xresources config.
+! The coloring was taken from somebody elses configuration.
 
 urxvt.termName: rxvt
 urxvt.geometry: 96x24
