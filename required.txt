@@ -1,10 +1,9 @@
-i3 with dmenu
-	programs needed:
-		feh - background
-		urxvt - terminal
-		dmenu - dynamic menu (alt+d), should come pre-installed with i3
+i3
+	feh - background
+	urxvt - terminal
+	dmenu - dynamic menu (alt+d), should come pre-installed with i3
 
-	relies on:
+	suggested:
 		.Xresources
 		set background with feh in ~/.i3/config (near bottom of file)
 
@@ -15,9 +14,9 @@ openbox
 		tint2 - task bar
 		dmenu - dynamic menu
 		thunar - file manager
-		amixer - for volume controls
+		amixer - for volume keybinds
 
-	relies on:
+	suggested:
 		.Xresources
 		tint2rc
 		set backround with feh in ~/.config/openbox/autostart

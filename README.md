@@ -14,9 +14,6 @@ However, feel free to use this repo however you'd like.
 
 ### ~/.config/tint2/
 * tint2rc
-* tintwizard.conf
-* tintwizard.py
-
 ## ~/.i3/
 * config
 
