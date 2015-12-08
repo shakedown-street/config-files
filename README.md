@@ -14,7 +14,8 @@ However, feel free to use this repo however you'd like.
 
 ### ~/.config/tint2/
 * tint2rc
-## ~/.i3/
+
+### ~/.i3/
 * config
 
 Some openbox themes are also included and are used in the openbox configuration.
