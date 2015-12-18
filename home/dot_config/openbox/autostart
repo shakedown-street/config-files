@@ -3,4 +3,5 @@
 #
 
 feh --randomize --bg-scale ~/Pictures/Backgrounds/ &
+xrandr --output VGA1 --off &
 tint2 &
