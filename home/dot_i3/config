@@ -144,4 +144,3 @@ bar {
 }
 
 exec_always feh --randomize --bg-scale ~/Pictures/Backgrounds/
-exec xrandr --output VGA1 --mode 1280x800 --above LVDS1
