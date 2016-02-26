@@ -47,7 +47,7 @@ urxvt.color15: #ffffff
 
 ! clickable links
 urxvt.perl-ext-common: default,matcher
-urxvt.url-launcher: /usr/bin/vivaldi
+urxvt.url-launcher: /usr/bin/firefox
 urxvt.matcher.button: 1
 
 ! yankable links

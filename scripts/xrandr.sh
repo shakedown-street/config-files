@@ -1,5 +1,6 @@
 #!/bin/bash
 # This script executes at startup and asks whether to setup for a dual or single monitor setup.
+# This script is really just for me, use it if it helps, if not then delete it.
 echo "dual or single monitor?"
 read setting
 

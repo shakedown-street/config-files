@@ -1,22 +1,22 @@
 # config-files
-This is a collection of my config files.
-It is packaged relatively to where the files should be placed on the system.
-This repo is mainly for me, so I can easily set up my own systems with i3 and openbox configs.
-However, feel free to use this repo however you'd like.
 
 ### ~/
-* .Xresources
+* ~/.Xresources
 
 ### ~/.config/openbox/
-* autostart
-* menu.xml
-* rc.xml
+* ~/.config/openbox/autostart - Configure which programs or scripts run on startup
+* ~/.config/openbox/menu.xml - Right click menu configure file
+* ~/.config/openbox/rc.xml - Openbox main configuration file
+* the Alt-D command requires dmenu to be installed.  Dmenu should come installed with i3.
 
 ### ~/.config/tint2/
-* tint2rc
+* ~/.config/tint2/tint2rc
 
 ### ~/.i3/
-* config
+* ~/.i3/config
 
 Some openbox themes are also included and are used in the openbox configuration.
-If you choose to not use the included themes, you will need to change it in obconf.
+To change openbox theme, use obconf (right click menu on desktop)
+
+# Tools included
+* tintwizard.py - GUI for easy tint2 configuration
