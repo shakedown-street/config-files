@@ -154,7 +154,7 @@ bar {
         }
         # i3bar position
         position bottom
-        status_command i3status
+        status_command py3status -c ~/.i3/i3status.conf
 }
 
 # color class              border    backg.     text
