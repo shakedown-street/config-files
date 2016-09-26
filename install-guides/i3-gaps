@@ -1,0 +1,8 @@
+This repository's i3 config will not work with standard i3
+
+The i3 repository that this i3 config can be found here:
+https://github.com/o4dev/i3
+
+1. git pull
+2. make
+3. sudo make install

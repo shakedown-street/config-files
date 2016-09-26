@@ -20,8 +20,8 @@ set $mod Mod1
 # chose a FreeType font, such as:
 font pango:Droid Sans 9
 
-new_window pixel 2
-new_float pixel 2
+new_window pixel 5
+new_float pixel 5
 
 popup_during_fullscreen smart
 workspace_auto_back_and_forth yes
@@ -106,7 +106,7 @@ bindsym $mod+Shift+0 move container to workspace 10
 
 # Program keybinds
 bindsym $mod+Shift+f exec thunar
-bindsym $mod+Shift+w exec firefox
+bindsym $mod+Shift+w exec google-chrome
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -142,22 +142,30 @@ bindsym $mod+r mode "resize"
 bar {
         colors {
             # Whole color settings
-            background #111111
-            statusline #ffffff
-            separator  #666666
+		    background #212F3C
+		    statusline #D0D3D4
+            separator  #7B7D7D
 
             # Type             border  background font
-            focused_workspace  #333333 #0066ff #ffffff
-            active_workspace   #333333 #333333 #ffffff
-            inactive_workspace #333333 #222222 #888888
-            urgent_workspace   #aa0000 #990000 #ffffff
+		    focused_workspace  #2471A3 #2471A3 #D0D3D4
+		    active_workspace   #283747 #283747 #D0D3D4
+		    inactive_workspace #283747 #283747 #7B7D7D
+		    urgent_workspace   #A93226 #A93226 #D0D3D4
         }
         # i3bar position
         position bottom
         status_command i3status
 }
 
+# color class              border    backg.     text
+client.focused             #2471A3   #2471A3    #D0D3D4
+client.focused_inactive    #283747   #283747    #D0D3D4
+client.unfocused           #283747   #283747    #7B7D7D
+client.urgent              #A93226   #A93226    #D0D3D4
+
+client.Background          #212F3C
+
 exec_always feh --randomize --bg-scale ~/Pictures/Backgrounds/
 exec compton
 
-gap_size 10
+gap_size 5
