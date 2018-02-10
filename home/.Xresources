@@ -1,49 +1,48 @@
-! I do not know where I found this Xresources config.
-! The coloring was taken from somebody elses configuration.
-
-urxvt.termName: rxvt
 urxvt.geometry: 96x24
-urxvt.transparent: true
-urxvt.shading: 20
+!urxvt.transparent: true
+!urxvt.shading: 20
 urxvt.scrollBar: false
 urxvt.cursorBlink: true
 urxvt.cursorUnderline: true
 urxvt.jumpScroll: false
-urxvt.tintColor: white
 urxvt.scrollWithBuffers: true
-! urxvt.letterSpace: -1
 
-! urxvt color scheme:
+! special
+*.foreground:   #e9ecef
+*.background:   #212529
+*.cursorColor:  #e9ecef
 
-urxvt.background: #0c0d0e
-urxvt.foreground: #7f8f9f
+! black
+*.color0:       #343a40
+*.color8:       #495057
 
-urxvt.colorUL: #86a2b0
+! red
+*.color1:       #f03e3e
+*.color9:       #ff6b6b
 
-! black + red
-urxvt.color0: #212529
-urxvt.color1: #ff6b6b
-! green + yellow
-urxvt.color2: #51cf66
-urxvt.color3: #fcc419
-! blue + purple
-urxvt.color4: #329af0
-urxvt.color5: #845ef7
-! cyan + white
-urxvt.color6: #22b8cf
-urxvt.color7: #dcdccc
-! bright-black + bright-red
-urxvt.color8: #000000
-urxvt.color9: #e03131
-! bright-green + bright-yellow
-urxvt.color10: #2f9e44
-urxvt.color11: #f08c00
-! bright-blue + bright-purple
-urxvt.color12: #1b6ec2
-urxvt.color13: #6741d9
-! bright-cyan + bright-white
-urxvt.color14: #0c8599
-urxvt.color15: #ffffff
+! green
+*.color2:       #37b24d
+*.color10:      #51cf66
+
+! yellow
+*.color3:       #fcc419
+*.color11:      #ffe066
+
+! blue
+*.color4:       #1c7ed6
+*.color12:      #339af0
+
+! magenta
+*.color5:       #7048e8
+*.color13:      #845ef7
+
+! cyan
+*.color6:       #0ca678
+*.color14:      #20c997
+
+! white
+*.color7:       #ced4da
+*.color15:      #f8f9fa
 
 ! clickable links
 urxvt.perl-ext-common: default,matcher
@@ -57,5 +56,5 @@ urxvt.url-select.launcher: /usr/bin/xdg-open
 urxvt.url-select.underline: true
 
 ! font
-urxvt.font: xft:DejaVu Sans Mono:size=9
+urxvt.font: xft:Inconsolata:size=10
 urxvt.imLocale: en_US.UTF-8

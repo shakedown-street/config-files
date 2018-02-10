@@ -2,6 +2,7 @@
 
 ### ~/
 * ~/.Xresources
+* ~/.vimrc
 
 ### ~/.config/openbox/
 * ~/.config/openbox/autostart - Configure which programs or scripts run on startup
