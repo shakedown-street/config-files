@@ -10,16 +10,13 @@
     <action name="Execute"><execute>urxvt</execute></action>
   </item>
   <item label="Web Browser">
-    <action name="Execute"><execute>firefox</execute></action>
+    <action name="Execute"><execute>google-chrome</execute></action>
   </item>
   <item label="File Explorer">
     <action name="Execute"><execute>thunar</execute></action>
   </item>
 
   <separator />
-  <item label="Sublime">
-    <action name="Execute"><execute>subl</execute></action>
-  </item>
   <item label="Atom">
     <action name="Execute"><execute>atom</execute></action>
   </item>
