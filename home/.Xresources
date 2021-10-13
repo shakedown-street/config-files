@@ -8,37 +8,37 @@ urxvt.jumpScroll: false
 urxvt.scrollWithBuffers: true
 
 ! special
-*.foreground:   #e9ecef
+*.foreground:   #f8f9fa
 *.background:   #212529
-*.cursorColor:  #e9ecef
+*.cursorColor:  #f8f9fa
 
 ! black
-*.color0:       #343a40
-*.color8:       #495057
+*.color0:       #212529
+*.color8:       #343a40
 
 ! red
-*.color1:       #f03e3e
+*.color1:       #c92a2a
 *.color9:       #ff6b6b
 
 ! green
-*.color2:       #37b24d
-*.color10:      #51cf66
+*.color2:       #087f5b
+*.color10:      #20c997
 
 ! yellow
 *.color3:       #fcc419
 *.color11:      #ffe066
 
 ! blue
-*.color4:       #1c7ed6
+*.color4:       #1864ab
 *.color12:      #339af0
 
 ! magenta
-*.color5:       #7048e8
-*.color13:      #845ef7
+*.color5:       #862e9c
+*.color13:      #cc5de8
 
 ! cyan
-*.color6:       #0ca678
-*.color14:      #20c997
+*.color6:       #0b7285
+*.color14:      #22b8cf
 
 ! white
 *.color7:       #ced4da
