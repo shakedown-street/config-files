@@ -56,5 +56,5 @@ urxvt.url-select.launcher: /usr/bin/xdg-open
 urxvt.url-select.underline: true
 
 ! font
-urxvt.font: xft:Inconsolata:size=12
+urxvt.font: xft:Inconsolata:size=10
 urxvt.imLocale: en_US.UTF-8
