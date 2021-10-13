@@ -3,4 +3,4 @@
 #
 
 feh --randomize --bg-scale ~/Pictures/Backgrounds/ &
-tint2 -c ~/.config/tint2 &
+tint2 &

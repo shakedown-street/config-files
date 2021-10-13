@@ -6,7 +6,7 @@
                 file:///usr/share/openbox/menu.xsd">
 
 <menu id="root-menu" label="Openbox 3">
-  <item label="Terminal Emulator">
+  <item label="Terminal">
     <action name="Execute"><execute>urxvt</execute></action>
   </item>
   <item label="Web Browser">
@@ -15,16 +15,18 @@
   <item label="File Explorer">
     <action name="Execute"><execute>thunar</execute></action>
   </item>
-
   <separator />
   <item label="Atom">
     <action name="Execute"><execute>atom</execute></action>
+  </item>
+  <item label="Spotify">
+    <action name="Execute"><execute>spotify</execute></action>
   </item>
   <item label="Profanity">
     <action name="Execute"><execute>urxvt -e profanity</execute></action>
   </item>
   <!-- This requires the presence of the 'menu' package to work -->
-  <menu id="/Debian" />
+  <!-- <menu id="/Debian" /> -->
   <separator />
   <menu id="client-list-menu" />
   <separator />

@@ -67,7 +67,7 @@ task_urgent_icon_asb = 100 0 0
 task_iconified_icon_asb = 70 0 0
 
 # Fonts
-task_font = Droid Sans 9
+task_font = DejaVu Sans Mono 9
 task_font_color = #FFFFFF 51
 task_active_font_color = #FFFFFF 100
 task_urgent_font_color = #FFFFFF 80
@@ -84,9 +84,9 @@ systray_icon_asb = 70 0 0
 
 # Clock
 time1_format = %l:%M %P
-time1_font = Droid Sans 9
+time1_font = DejaVu Sans Mono 9
 time2_format = %B %d
-time2_font = Droid Sans 8
+time2_font = DejaVu Sans Mono 8
 clock_font_color = #FFFFFF 66
 clock_padding = 1 0
 clock_background_id = 0
@@ -98,7 +98,7 @@ tooltip_padding = 2 2
 tooltip_show_timeout = 0.7
 tooltip_hide_timeout = 0.3
 tooltip_background_id = 1
-tooltip_font = Droid Sans 10
+tooltip_font = DejaVu Sans Mono 10
 tooltip_font_color = #FFFFFF 80
 
 # Mouse
@@ -112,8 +112,8 @@ battery = 1
 battery_low_status = 10
 battery_low_cmd = notify-send "Battery is at 10%"
 battery_hide = 25
-bat1_font = Droid Sans 9
-bat2_font = Droid Sans 8
+bat1_font = DejaVu Sans Mono 9
+bat2_font = DejaVu Sans Mono 8
 battery_font_color = #FFFFFF 66
 battery_padding = 1 0
 battery_background_id = 2

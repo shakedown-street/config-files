@@ -18,6 +18,3 @@
 
 Some openbox themes are also included and are used in the openbox configuration.
 To change openbox theme, use obconf (right click menu on desktop)
-
-# Tools included
-* tintwizard.py - GUI for easy tint2 configuration

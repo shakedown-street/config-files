@@ -1,4 +1,4 @@
-i3-gaps (Check installation guides) -
+i3
 	feh - background
 	urxvt - terminal
 	thunar - file manager
@@ -11,13 +11,12 @@ openbox
 	programs needed:
 		feh - background
 		urxvt - terminal
+		thunar - file manager
 		tint2 - task bar
 		dmenu - dynamic menu (comes installed with i3)
-		thunar - file manager
 		amixer - for volume keybinds
 
 	suggested configs:
 		.Xresources
 		tint2rc
 		Add backgrounds to ~/Pictures/Backgrounds/
-		
