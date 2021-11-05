@@ -55,4 +55,3 @@ endfunc
 
 :nmap <C-N><C-N> :call TogNumber()<CR>
 :nmap <C-f> :NERDTreeToggle<CR>
-
