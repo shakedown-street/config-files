@@ -4,7 +4,6 @@ cp -R ./home/dot_config/i3/* ~/.config/i3/
 cp -R ./home/dot_config/openbox/* ~/.config/openbox
 cp -R ./home/dot_config/tint2/* ~/.config/tint2/tint2rc
 cp -R ./home/dot_themes/* ~/.themes/
-cp -R ./home/dot_vim/* ~/.vim/
 cp ./home/.Xresources ~/.Xresources
 cp ./home/.vimrc ~/.vimrc
 cp -R ./Backgrounds/* ~/Pictures/Backgrounds/

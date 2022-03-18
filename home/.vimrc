@@ -1,32 +1,35 @@
-set nocompatible
-filetype off
+syntax on
 
-" TODO https://github.com/Valloric/YouCompleteMe
-" TODO https://medium.com/@mhartington/typescript-vim-64783d89e468
+set noerrorbells
+set tabstop=2 softtabstop=2
+set shiftwidth=2
+set expandtab
+set smartindent
+set nu
+set nowrap
+set smartcase
+set noswapfile 
+set incsearch
+set colorcolumn=80
+set showmatch
+set ruler
+
+" TODO https://github.com/Valloric/YouCompleteMe"
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
     Plugin 'VundleVim/Vundle.vim'
+    Plugin 'joshdick/onedark.vim'
     Plugin 'scrooloose/nerdtree'
     Plugin 'tpope/vim-fugitive'
     Plugin 'bling/vim-airline'
     Plugin 'vim-airline/vim-airline-themes'
-    Plugin 'airblade/vim-gitgutter'
     Plugin 'leafgarland/typescript-vim'
-    Plugin 'Shougo/vimproc.vim'
-    Plugin 'Quramy/tsuquyomi'
+    Plugin 'prettier/vim-prettier'
+    Plugin 'junegunn/fzf'
+    Plugin 'junegunn/fzf.vim'
+    " Plugin 'valloric/youcompleteme'
 call vundle#end()
-
-filetype plugin indent on
-syntax on
-
-set showmatch
-set ruler
-set number
-set colorcolumn=80
-set expandtab
-set tabstop=4
-set shiftwidth=4
 
 " Brief help
 " :PluginList       - lists configured plugins
@@ -34,24 +37,23 @@ set shiftwidth=4
 " :PluginSearch foo - searches for foo; append `!` to refresh local cache
 " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
 
-let g:airline_theme='wombat'
+colorscheme onedark
 
-:highlight ColorColumn ctermbg=7
-:highlight LineNr term=underline ctermfg=7 guifg=White
-:highlight Statement term=bold ctermfg=1 gui=bold guifg=Red
-:highlight Comment term=bold ctermfg=8 guifg=lightgray
+let g:airline_theme='term'
+
+" Prettier configuration
+let g:prettier#config#arrow_parens='always'
+let g:prettier#config#print_width='120'
+let g:prettier#config#quote_props='consistent'
+let g:prettier#config#semi='true'
+let g:prettier#config#single_quote='true'
+
+" Prettier autosave
+let g:prettier#autoformat=0
+autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue PrettierAsync
 
 " Keybindings
 
 :noremap <C-t>     :tabnew<CR>
-
-function! TogNumber()
-    if (&number == 0)
-        set number
-    else
-        set nonumber
-    endif
-endfunc
-
-:nmap <C-N><C-N> :call TogNumber()<CR>
 :nmap <C-f> :NERDTreeToggle<CR>
+

@@ -37,8 +37,8 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
-new_window pixel 5
-new_float pixel 5
+new_window pixel 2
+new_float pixel 2
 
 popup_during_fullscreen smart
 workspace_auto_back_and_forth yes
@@ -176,15 +176,15 @@ bindsym $mod+r mode "resize"
 bar {
   colors {
     # Whole color settings
-    background #212F3C
-    statusline #D0D3D4
-    separator  #7B7D7D
+    background #212529
+    statusline #f8f9fa
+    separator  #495057
 
     # Type             border  background font
-    focused_workspace  #2471A3 #2471A3 #D0D3D4
-    active_workspace   #283747 #283747 #D0D3D4
-    inactive_workspace #283747 #283747 #7B7D7D
-    urgent_workspace   #A93226 #A93226 #D0D3D4
+    focused_workspace  #087f5b #087f5b #f8f9fa
+    active_workspace   #343a40 #343a40 #f8f9fa
+    inactive_workspace #343a40 #343a40 #ced4da
+    urgent_workspace   #c92a2a #c92a2a #f8f9fa
   }
   # i3bar position
   position bottom
@@ -192,11 +192,11 @@ bar {
 }
 
 # color class              border    backg.     text
-client.focused             #2471A3   #2471A3    #D0D3D4
-client.focused_inactive    #283747   #283747    #D0D3D4
-client.unfocused           #283747   #283747    #7B7D7D
-client.urgent              #A93226   #A93226    #D0D3D4
+client.focused             #087f5b   #087f5b    #f8f9fa
+client.focused_inactive    #343a40   #343a40    #f8f9fa
+client.unfocused           #343a40   #343a40    #ced4da
+client.urgent              #c92a2a   #c92a2a    #f8f9fa
 
-client.Background          #212F3C
+client.Background          #212529
 
 exec_always feh --randomize --bg-scale ~/Pictures/Backgrounds/
