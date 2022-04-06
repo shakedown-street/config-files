@@ -19,3 +19,6 @@
 
 Some openbox themes are also included and are used in the openbox configuration.
 To change openbox theme, use obconf (right click menu on desktop)
+
+If using .vim/ and .vimrc, clone vundle, run :PluginInstall in vim:
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim

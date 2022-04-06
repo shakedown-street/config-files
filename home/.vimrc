@@ -5,7 +5,7 @@ set tabstop=2 softtabstop=2
 set shiftwidth=2
 set expandtab
 set smartindent
-set nu
+set number relativenumber
 set nowrap
 set smartcase
 set noswapfile 
@@ -37,7 +37,7 @@ call vundle#end()
 " :PluginSearch foo - searches for foo; append `!` to refresh local cache
 " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
 
-colorscheme onedark
+":w colorscheme onedark
 
 let g:airline_theme='term'
 

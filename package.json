@@ -1,0 +1,22 @@
+{
+  "name": "config-files",
+  "version": "1.0.0",
+  "description": "Filewatcher to automatically apply changes from the repo to the filesystem",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shakedown-street/config-files.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shakedown-street/config-files/issues"
+  },
+  "homepage": "https://github.com/shakedown-street/config-files#readme",
+  "dependencies": {
+    "filewatcher": "^3.0.1"
+  }
+}

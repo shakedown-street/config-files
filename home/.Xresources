@@ -7,43 +7,6 @@ urxvt.cursorUnderline: true
 urxvt.jumpScroll: false
 urxvt.scrollWithBuffers: true
 
-! special
-*.foreground:   #f8f9fa
-*.background:   #212529
-*.cursorColor:  #f8f9fa
-
-! black
-*.color0:       #212529
-*.color8:       #343a40
-
-! red
-*.color1:       #c92a2a
-*.color9:       #ff6b6b
-
-! green
-*.color2:       #087f5b
-*.color10:      #20c997
-
-! yellow
-*.color3:       #fcc419
-*.color11:      #ffe066
-
-! blue
-*.color4:       #1864ab
-*.color12:      #339af0
-
-! magenta
-*.color5:       #862e9c
-*.color13:      #cc5de8
-
-! cyan
-*.color6:       #0b7285
-*.color14:      #22b8cf
-
-! white
-*.color7:       #ced4da
-*.color15:      #f8f9fa
-
 ! clickable links
 urxvt.perl-ext-common: default,matcher
 urxvt.url-launcher: /usr/bin/google-chrome
@@ -58,3 +21,79 @@ urxvt.url-select.underline: true
 ! font
 urxvt.font: xft:Inconsolata:size=10
 urxvt.imLocale: en_US.UTF-8
+
+! -----------------------------------------------------------------------------
+! File: gruvbox-urxvt256.xresources
+! Description: Retro groove colorscheme generalized
+! Author: morhetz <morhetz@gmail.com>
+! Source: https://github.com/morhetz/gruvbox-generalized
+! Last Modified: 13 Dec 2013
+! -----------------------------------------------------------------------------
+
+URxvt.color24:  #076678
+URxvt.color66:  #427b58
+URxvt.color88:  #9d0006
+URxvt.color96:  #8f3f71
+URxvt.color100: #79740e
+URxvt.color108: #8ec07c
+URxvt.color109: #83a598
+URxvt.color130: #af3a03
+URxvt.color136: #b57614
+URxvt.color142: #b8bb26
+URxvt.color167: #fb4934
+URxvt.color175: #d3869b
+URxvt.color208: #fe8019
+URxvt.color214: #fabd2f
+URxvt.color223: #ebdbb2
+URxvt.color228: #f2e5bc
+URxvt.color229: #fbf1c7
+URxvt.color230: #f9f5d7
+URxvt.color234: #1d2021
+URxvt.color235: #282828
+URxvt.color236: #32302f
+URxvt.color237: #3c3836
+URxvt.color239: #504945
+URxvt.color241: #665c54
+URxvt.color243: #7c6f64
+URxvt.color244: #928374
+URxvt.color245: #928374
+URxvt.color246: #a89984
+URxvt.color248: #bdae93
+URxvt.color250: #d5c4a1
+
+! -----------------------------------------------------------------------------
+! File: gruvbox-dark.xresources
+! Description: Retro groove colorscheme generalized
+! Author: morhetz <morhetz@gmail.com>
+! Source: https://github.com/morhetz/gruvbox-generalized
+! Last Modified: 6 Sep 2014
+! -----------------------------------------------------------------------------
+
+! hard contrast: *background: #1d2021
+*background: #282828
+! soft contrast: *background: #32302f
+*foreground: #ebdbb2
+! Black + DarkGrey
+*color0:  #282828
+*color8:  #928374
+! DarkRed + Red
+*color1:  #cc241d
+*color9:  #fb4934
+! DarkGreen + Green
+*color2:  #98971a
+*color10: #b8bb26
+! DarkYellow + Yellow
+*color3:  #d79921
+*color11: #fabd2f
+! DarkBlue + Blue
+*color4:  #458588
+*color12: #83a598
+! DarkMagenta + Magenta
+*color5:  #b16286
+*color13: #d3869b
+! DarkCyan + Cyan
+*color6:  #689d6a
+*color14: #8ec07c
+! LightGrey + White
+*color7:  #a89984
+*color15: #ebdbb2
