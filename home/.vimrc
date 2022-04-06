@@ -19,7 +19,7 @@ set ruler
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
     Plugin 'VundleVim/Vundle.vim'
-    Plugin 'joshdick/onedark.vim'
+    Plugin 'morhetz/gruvbox'
     Plugin 'scrooloose/nerdtree'
     Plugin 'tpope/vim-fugitive'
     Plugin 'bling/vim-airline'
@@ -37,9 +37,9 @@ call vundle#end()
 " :PluginSearch foo - searches for foo; append `!` to refresh local cache
 " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
 
-":w colorscheme onedark
+colorscheme gruvbox
 
-let g:airline_theme='term'
+let g:airline_theme='gruvbox'
 
 " Prettier configuration
 let g:prettier#config#arrow_parens='always'
