@@ -11,6 +11,20 @@
 
 set $mod Mod1
 
+set $gray9 #212529
+set $gray8 #343a40
+set $gray7 #495057
+set $gray6 #868e96
+
+set $bg #212529
+set $fg #f8f9fa
+set $red #c92a2a
+set $green #087f5b
+set $yellow #fcc419
+set $blue #1864ab
+set $purple #862e9c
+set $aqua #0b7285
+
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 # font pango:monospace 8
@@ -54,7 +68,7 @@ floating_modifier $mod
 bindsym $mod+k kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id dmenu_run -fn 'DejaVu Sans Mono 9'
+bindsym $mod+d exec --no-startup-id dmenu_run -fn 'Inconsolata-10' -nb '$bg' -nf '$fg' -sb '$fg' -sf '$bg' 
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -173,33 +187,19 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-set $bg #282828
-set $fg #ebdbb2
-set $unfocused #a89984
-set $red #cc241d
-set $green #98971a
-set $yellow #d79921
-set $blue #458588
-set $purple #b16286
-set $aqua #689d68
-set $gray #a89984
-set $darkgray #1d2021
-
 # Start py3status to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
   font pango:Inconsolata 10
   colors {
-    # bar background color
     background $bg
-    # text color used for blocks that do not have a color specified.
     statusline $fg
-    # workspaces section            
-    #                    border  backgr. text
-    focused_workspace    $green $green $darkgray
-    inactive_workspace   $darkgray $darkgray $green
-    active_workspace     $darkgray $darkgray $green
-    urgent_workspace     $red $red $bg
+
+    #                    border|backgr|text
+    focused_workspace    $fg $fg $bg
+    inactive_workspace   $bg $bg $fg
+    active_workspace     $bg $bg $fg
+    urgent_workspace     $red $red $fg
   }
   workspace_min_width 32
   # i3bar position
@@ -207,18 +207,12 @@ bar {
   status_command py3status -c ~/.config/i3/py3status.conf
 }
 
-# green gruvbox
 # class                 border|backgr|text|indicator|child_border
-client.focused          $green $green $fg $blue $green
-client.focused_inactive $darkgray $darkgray $fg $blue $darkgray
-client.unfocused        $darkgray $darkgray $unfocused $blue $darkgray
+client.focused          $gray6 $gray6 $fg $blue $gray6
+client.focused_inactive $gray7 $gray7 $fg $blue $gray7
+client.unfocused        $gray8 $gray8 $fg $blue $gray8
 client.urgent           $red $red $fg $blue $red
 
-# blue gruvbox
-# class                 border|backgr|text|indicator|child_border
-# client.focused          $blue $blue $darkgray $purple $darkgray
-# client.focused_inactive $darkgray $darkgray $yellow $purple $darkgray
-# client.unfocused        $darkgray $darkgray $yellow $purple $darkgray
-# client.urgent           $red $red $white $red $red
+client.Background       $bg
 
 exec_always feh --randomize --bg-scale ~/Pictures/Backgrounds/
