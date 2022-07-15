@@ -21,10 +21,6 @@ const directoryMap = [
     system: '~/.fonts/'
   },
   {
-    repo: './home/.icons/',
-    system: '~/.icons/'
-  },
-  {
     repo: './home/.themes/',
     system: '~/.themes/'
   },
