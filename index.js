@@ -17,6 +17,14 @@ const directoryMap = [
     system: '~/.config/tint2/'
   },
   {
+    repo: './home/.fonts/',
+    system: '~/.fonts/'
+  },
+  {
+    repo: './home/.icons/',
+    system: '~/.icons/'
+  },
+  {
     repo: './home/.themes/',
     system: '~/.themes/'
   },
@@ -30,6 +38,10 @@ const fileMap = [
   {
     repo: './home/.Xresources', 
     system: '~/.Xresources',
+  },
+  {
+    repo: './home/.xinitrc', 
+    system: '~/.xinitrc',
   },
   {
     repo: './home/.vimrc', 
