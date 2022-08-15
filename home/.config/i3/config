@@ -214,6 +214,5 @@ client.urgent           $red $red $fg $blue $red
 
 client.Background       $bg
 
-exec_always feh --randomize --bg-scale ~/Pictures/Backgrounds/
 exec "xrandr --output eDP-1 --mode 1920x1200"
-# exec "xrandr --dpi 145"
+exec_always feh --randomize --bg-scale ~/Pictures/Backgrounds/

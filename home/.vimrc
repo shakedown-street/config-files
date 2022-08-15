@@ -8,7 +8,7 @@ set smartindent
 set number relativenumber
 set nowrap
 set smartcase
-set noswapfile 
+set noswapfile
 set incsearch
 set colorcolumn=80
 set showmatch
