@@ -16,8 +16,8 @@
     <action name="Execute"><execute>thunar</execute></action>
   </item>
   <separator />
-  <item label="Atom">
-    <action name="Execute"><execute>atom</execute></action>
+  <item label="Code">
+    <action name="Execute"><execute>code</execute></action>
   </item>
   <item label="Spotify">
     <action name="Execute"><execute>spotify</execute></action>
