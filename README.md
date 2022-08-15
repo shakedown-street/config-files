@@ -4,6 +4,9 @@
 * ~/.Xresources
 * ~/.vimrc
 
+### ~/.config/dunst/
+* ~/.config/dunst/dunstrc
+
 ### ~/.config/i3/
 * ~/.config/i3/config
 * ~/.config/i3/py3status.conf
@@ -12,7 +15,6 @@
 * ~/.config/openbox/autostart - Configure which programs or scripts run on startup
 * ~/.config/openbox/menu.xml - Right click menu configure file
 * ~/.config/openbox/rc.xml - Openbox main configuration file
-* the Alt-D command requires dmenu to be installed.  dmenu comes installed with i3.
 
 ### ~/.config/tint2/
 * ~/.config/tint2/tint2rc

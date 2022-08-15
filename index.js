@@ -5,6 +5,10 @@ const args = process.argv.slice(2);
 
 const directoryMap = [
   {
+    repo: './home/.config/dunst/',
+    system: '~/.config/dunst/'
+  },
+  {
     repo: './home/.config/i3/',
     system: '~/.config/i3/'
   },
@@ -17,16 +21,12 @@ const directoryMap = [
     system: '~/.config/tint2/'
   },
   {
-    repo: './home/.fonts/',
-    system: '~/.fonts/'
-  },
-  {
     repo: './home/.themes/',
     system: '~/.themes/'
   },
   {
-    repo: './Backgrounds/',
-    system: '~/Pictures/Backgrounds/'
+    repo: './home/Pictures/',
+    system: '~/Pictures/'
   },
 ];
 
@@ -34,10 +34,6 @@ const fileMap = [
   {
     repo: './home/.Xresources', 
     system: '~/.Xresources',
-  },
-  {
-    repo: './home/.xinitrc', 
-    system: '~/.xinitrc',
   },
   {
     repo: './home/.vimrc', 
