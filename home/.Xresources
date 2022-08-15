@@ -12,18 +12,18 @@ urxvt.perl-ext-common: default,matcher
 urxvt.url-launcher: /usr/bin/google-chrome
 urxvt.matcher.button: 1
 
-! yankable links
-urxvt.perl-ext: default,url-select
-urxvt.keysym.M-u: perl:url-select:select_next
-urxvt.url-select.launcher: /usr/bin/xdg-open
-urxvt.url-select.underline: true
-
 ! font
 urxvt.font: xft:monospace:size=10
 urxvt.imLocale: en_US.UTF-8
 
-! dpi
-!Xft.dpi: 145
+!dpi
+!Xft.dpi: 176
+!Xft.autohint: 0
+!Xft.lcdfilter:  lcddefault
+!Xft.hintstyle:  hintfull
+!Xft.hinting: 1
+!Xft.antialias: 1
+!Xft.rgba: rgb
 
 ! special
 *.foreground:   #f8f9fa
