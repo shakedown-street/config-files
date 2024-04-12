@@ -12,15 +12,18 @@ set noswapfile
 set incsearch
 set colorcolumn=80
 set showmatch
+set matchtime=0
 set ruler
+" set t_Co=32
 
-" TODO https://github.com/Valloric/YouCompleteMe"
+filetype plugin indent on
 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
     Plugin 'VundleVim/Vundle.vim'
     Plugin 'morhetz/gruvbox'
     Plugin 'scrooloose/nerdtree'
+    Plugin 'preservim/nerdcommenter'
     Plugin 'tpope/vim-fugitive'
     Plugin 'bling/vim-airline'
     Plugin 'vim-airline/vim-airline-themes'
@@ -28,7 +31,8 @@ call vundle#begin()
     Plugin 'prettier/vim-prettier'
     Plugin 'junegunn/fzf'
     Plugin 'junegunn/fzf.vim'
-    " Plugin 'valloric/youcompleteme'
+    Plugin 'rust-lang/rust.vim'
+    Plugin 'wfxr/minimap.vim'
 call vundle#end()
 
 " Brief help
@@ -52,8 +56,24 @@ let g:prettier#config#single_quote='true'
 let g:prettier#autoformat=0
 autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue PrettierAsync
 
+" rustfmt auto save
+let g:rustfmt_autosave = 1
+
+" NerdTree
+let NERDTreeShowHidden = 1
+
+" NerdCommenter
+
+let g:NERDCreateDefaultMappings = 1
+let g:NERDSpaceDelims = 1
+
+" Minimap
+let g:minimap_width = 12
+let g:minimap_auto_start = 1
+let g:minimap_auto_start_win_enter = 1
+
 " Keybindings
 
 :noremap <C-t>     :tabnew<CR>
 :nmap <C-f> :NERDTreeToggle<CR>
-
+:noremap <C-p> :Files<CR>
