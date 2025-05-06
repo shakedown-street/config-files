@@ -20,22 +20,25 @@ colors:
     background: "#212529"
     foreground: "#f8f9fa"
   normal:
-    black: "#212529"
-    red: "#c92a2a"
-    green: "#2b8a3e"
-    yellow: "#fcc419"
-    blue: "#1864ab"
-    magenta: "#087f5b"
-    cyan: "#0b7285"
-    white: "#ced4da"
+    black: "#495057"
+    red: "#f03e3e"
+    green: "#37b24d"
+    yellow: "#ffd43b"
+    blue: "#1c7ed6"
+    magenta: "#7048e8"
+    cyan: "#1098ad"
+    white: "#dee2e6"
   bright:
-    black: "#868e96"
+    black: "#adb5bd"
     red: "#ff6b6b"
     green: "#51cf66"
     yellow: "#ffec99"
     blue: "#339af0"
-    magenta: "#20c997"
+    magenta: "#845ef7"
     cyan: "#22b8cf"
-    white: "#f8f9fa"
+    white: "#f1f3f5"
+
+key_bindings:
+  - { key: Back, mods: Control, chars: "\x17" } # Ctrl + Backspace delete by word
 
 live_config_reload: true
