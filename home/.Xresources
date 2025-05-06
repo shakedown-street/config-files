@@ -1,6 +1,6 @@
 urxvt.geometry: 96x24
-!urxvt.transparent: true
-!urxvt.shading: 20
+urxvt.transparent: true
+urxvt.shading: 20
 urxvt.scrollBar: false
 urxvt.cursorBlink: true
 urxvt.cursorUnderline: true
@@ -9,21 +9,17 @@ urxvt.scrollWithBuffers: true
 
 ! clickable links
 urxvt.perl-ext-common: default,matcher
-urxvt.url-launcher: /usr/bin/google-chrome
+urxvt.url-launcher: /usr/bin/chromium
 urxvt.matcher.button: 1
 
 ! font
-urxvt.font: xft:monospace:size=10
+urxvt.font: xft:FiraCode Nerd Font Mono:style=Regular:pixelsize=12
+urxvt.boldFont: xft:FiraCode Nerd Font Mono:style=Bold:pixelsize=12
+urxvt.italicFont: xft:FiraCode Nerd Font Mono:style=Italic:pixelsize=12
 urxvt.imLocale: en_US.UTF-8
 
-!dpi
-!Xft.dpi: 176
-!Xft.autohint: 0
-!Xft.lcdfilter:  lcddefault
-!Xft.hintstyle:  hintfull
-!Xft.hinting: 1
-!Xft.antialias: 1
-!Xft.rgba: rgb
+! dpi
+Xft.dpi: 96
 
 ! special
 *.foreground:   #f8f9fa
