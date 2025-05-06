@@ -1,6 +1,6 @@
 i3
 	feh - background
-	urxvt - terminal
+	alacritty - terminal
 	thunar - file manager
 
 	suggested configs:
@@ -9,7 +9,7 @@ i3
 openbox
 	programs needed:
 		feh - background
-		urxvt - terminal
+		alacritty - terminal
 		thunar - file manager
 		tint2 - task bar
 		dmenu - dynamic menu (comes installed with i3)

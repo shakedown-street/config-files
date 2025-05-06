@@ -7,7 +7,7 @@
 
 <menu id="root-menu" label="Openbox 3">
   <item label="Terminal">
-    <action name="Execute"><execute>urxvt</execute></action>
+    <action name="Execute"><execute>alacritty</execute></action>
   </item>
   <item label="Web Browser">
     <action name="Execute"><execute>chromium</execute></action>

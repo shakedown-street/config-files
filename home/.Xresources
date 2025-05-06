@@ -28,7 +28,7 @@ Xft.dpi: 96
 
 ! black
 *.color0:       #212529
-*.color8:       #343a40
+*.color8:       #868e96
 
 ! red
 *.color1:       #c92a2a

@@ -354,7 +354,7 @@
   </keybind>
   <keybind key="A-t">
     <action name="Execute">
-      <command>urxvt</command>
+      <command>alacritty</command>
     </action>
   </keybind>
   <keybind key="A-S-w">

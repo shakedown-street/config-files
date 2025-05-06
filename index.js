@@ -5,6 +5,10 @@ const args = process.argv.slice(2);
 
 const directoryMap = [
   {
+    repo: "./home/.config/alacritty/",
+    system: "~/.config/alacritty/",
+  },
+  {
     repo: "./home/.config/dunst/",
     system: "~/.config/dunst/",
   },
