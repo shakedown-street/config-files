@@ -1,6 +1,5 @@
 #
 # Place script in $HOME/.config/openbox/autostart
 #
-xrandr --output eDP-1 --mode 1920x1200
-feh --randomize --bg-scale ~/Pictures/Backgrounds/ &
+feh --randomize --bg-center ~/Pictures/Backgrounds/ &
 tint2 &

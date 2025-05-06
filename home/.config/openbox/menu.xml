@@ -10,7 +10,7 @@
     <action name="Execute"><execute>urxvt</execute></action>
   </item>
   <item label="Web Browser">
-    <action name="Execute"><execute>google-chrome</execute></action>
+    <action name="Execute"><execute>chromium</execute></action>
   </item>
   <item label="File Explorer">
     <action name="Execute"><execute>thunar</execute></action>
@@ -18,12 +18,6 @@
   <separator />
   <item label="Code">
     <action name="Execute"><execute>code</execute></action>
-  </item>
-  <item label="Spotify">
-    <action name="Execute"><execute>spotify</execute></action>
-  </item>
-  <item label="Profanity">
-    <action name="Execute"><execute>urxvt -e profanity</execute></action>
   </item>
   <!-- This requires the presence of the 'menu' package to work -->
   <!-- <menu id="/Debian" /> -->

@@ -245,22 +245,22 @@
   <!-- Keybindings for volume -->
   <keybind key="XF86AudioRaiseVolume">
     <action name="Execute">
-      <command>amixer set Master 5%+</command>
+      <command>amixer -q sset 'Master' 1%+</command>
     </action>
   </keybind>
   <keybind key="XF86AudioLowerVolume">
     <action name="Execute">
-      <command>amixer set Master 5%-</command>
+      <command>amixer -q sset 'Master' 1%-</command>
     </action>
   </keybind>
   <keybind key="XF86AudioMute">
     <action name="Execute">
-      <command>amixer set Master toggle</command>
+      <command>amixer -q sset 'Master' toggle</command>
     </action>
   </keybind>
 
   <!-- Keybindings for windows -->
-  <keybind key="A-k">
+  <keybind key="A-q">
     <action name="Close"/>
   </keybind>
   <keybind key="A-Escape">
@@ -274,7 +274,7 @@
   <keybind key="A-b">
     <action name="ToggleDecorations"/>
   </keybind>
-  <keybind key="A-m">
+  <keybind key="A-f">
     <action name="ToggleMaximize"/>
   </keybind>
   <keybind key="A-j">
@@ -349,7 +349,7 @@
   <keybind key="A-d">
     <action name="Execute">
       <name>dmenu</name>
-      <command>dmenu_run -fn 'DejaVu Sans Mono 9'</command>
+      <command>dmenu_run -fn 'monospace-10' -nb '#212529' -nf '#f8f9fa' -sb '#f8f9fa' -sf '#212529' </command>
     </action>
   </keybind>
   <keybind key="A-t">
@@ -357,23 +357,15 @@
       <command>urxvt</command>
     </action>
   </keybind>
-  <keybind key="A-w">
+  <keybind key="A-S-w">
     <action name="Execute">
-      <command>google-chrome</command>
+      <command>chromium</command>
     </action>
   </keybind>
-  <keybind key="A-f">
+  <keybind key="A-S-f">
     <action name="Execute">
       <command>thunar</command>
     </action>
-  </keybind>
-  <!-- Launch scrot when Print is pressed -->
-  <keybind key="Print">
-    <action name="Execute"><command>scrot</command></action>
-  </keybind>
-  <!-- Take a screenshot of the current window with scrot when Alt+Print are pressed -->
-  <keybind key="A-Print">
-    <action name="Execute"><command>scrot -s</command></action>
   </keybind>
 </keyboard>
 

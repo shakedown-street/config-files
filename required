@@ -5,7 +5,6 @@ i3
 
 	suggested configs:
 		.Xresources
-		Add backgrounds to ~/Pictures/Backgrounds/
 
 openbox
 	programs needed:
@@ -19,4 +18,3 @@ openbox
 	suggested configs:
 		.Xresources
 		tint2rc
-		Add backgrounds to ~/Pictures/Backgrounds/

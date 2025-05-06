@@ -1,43 +1,39 @@
 const { exec } = require("child_process");
-const filewatcher = require('filewatcher');
+const filewatcher = require("filewatcher");
 
 const args = process.argv.slice(2);
 
 const directoryMap = [
   {
-    repo: './home/.config/dunst/',
-    system: '~/.config/dunst/'
+    repo: "./home/.config/dunst/",
+    system: "~/.config/dunst/",
   },
   {
-    repo: './home/.config/i3/',
-    system: '~/.config/i3/'
+    repo: "./home/.config/i3/",
+    system: "~/.config/i3/",
   },
   {
-    repo: './home/.config/openbox/',
-    system: '~/.config/openbox/'
+    repo: "./home/.config/openbox/",
+    system: "~/.config/openbox/",
   },
   {
-    repo: './home/.config/tint2/',
-    system: '~/.config/tint2/'
+    repo: "./home/.config/tint2/",
+    system: "~/.config/tint2/",
   },
   {
-    repo: './home/.themes/',
-    system: '~/.themes/'
-  },
-  {
-    repo: './home/Pictures/',
-    system: '~/Pictures/'
+    repo: "./home/.themes/",
+    system: "~/.themes/",
   },
 ];
 
 const fileMap = [
   {
-    repo: './home/.Xresources', 
-    system: '~/.Xresources',
+    repo: "./home/.Xresources",
+    system: "~/.Xresources",
   },
   {
-    repo: './home/.vimrc', 
-    system: '~/.vimrc',
+    repo: "./home/.vimrc",
+    system: "~/.vimrc",
   },
 ];
 
@@ -64,7 +60,7 @@ function push() {
   fileMap.forEach((file) => {
     execCommand(`cp ${file.repo} ${file.system}`);
   });
-  execCommand('xrdb ~/.Xresources');
+  execCommand("xrdb ~/.Xresources");
 }
 
 function pull() {
@@ -74,7 +70,7 @@ function pull() {
   fileMap.forEach((file) => {
     execCommand(`cp ${file.system} ${file.repo}`);
   });
-  execCommand('xrdb ~/.Xresources');
+  execCommand("xrdb ~/.Xresources");
 }
 
 if (!args[0]) {
@@ -85,7 +81,7 @@ if (!args[0]) {
   `);
 } else {
   switch (args[0]) {
-    case 'watch':
+    case "watch":
       const watcher = filewatcher();
       directoryMap.forEach((directory) => {
         watcher.add(directory.repo);
@@ -93,16 +89,16 @@ if (!args[0]) {
       fileMap.forEach((file) => {
         watcher.add(file.repo);
       });
-      watcher.on('change', function(file, stat) {
-        console.log('File modified: %s', file);
+      watcher.on("change", function (file, stat) {
+        console.log("File modified: %s", file);
         push();
-        if (!stat) console.log('deleted');
+        if (!stat) console.log("deleted");
       });
       break;
-    case 'push':
+    case "push":
       push();
       break;
-    case 'pull':
+    case "pull":
       pull();
       break;
   }
