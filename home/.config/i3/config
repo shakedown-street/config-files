@@ -232,11 +232,11 @@ bar {
 }
 
 # class                 border|backgr|text|indicator|child_border
-client.focused          $gray8 $bg $fg $blue5 $fg
-client.focused_inactive $gray8 $bg $fg $gray6 $gray8
-client.unfocused        $gray8 $bg $fg $gray6 $gray8
-client.urgent           $gray8 $bg $fg $gray6 $red
-client.placeholder      $gray8 $bg $fg $gray6 $gray8
+client.focused          $fg $bg $fg $gray6 $fg
+client.focused_inactive $gray8 $bg $fg $gray8 $gray8
+client.unfocused        $gray8 $bg $fg $gray8 $gray8
+client.urgent           $red $bg $fg $gray8 $red
+client.placeholder      $gray8 $bg $fg $gray8 $gray8
 
 client.Background       $bg
 
